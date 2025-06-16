@@ -1,14 +1,13 @@
-# Denoising Algorithm using Wavelet Decomposition and Reconstruction
+# A Denoising Image Algorithm Using Discrete Wavelet Transform in Python (from Scratch, Without PyWavelets):
 
-Wavelet Decomposition and Reconstruction
+I developed a sophisticated image denoising algorithm entirely from scratch in Python, without relying on external libraries like PyWavelets. The project consists of four main steps:
 
-This project aims to implement several algorithms, starting from reading a grayscale image in
-PGM format to filtering and denoising a noisy image.
-In the first phase, an algorithm is developed from scratch to read a PGM file and convert it into a
-matrix, which will be used as input for subsequent algorithms. Next, a wavelet decomposition
-algorithm using Haar filtering is designed to extract the coefficients of the image. This is
-followed by the implementation of the reverse process—wavelet reconstruction—to recreate the
-original image from its frequency coefficients.
-Finally, a denoising algorithm leveraging the developed wavelet decomposition and
-reconstruction processes is created. This algorithm is applied to reduce noise in the noisy image,
-and its efficiency is evaluated by comparing the denoised image to the original.
+1-PGM Image Reader: Implemented a custom reader for PGM (Portable GrayMap) image files from scratch in Python.
+
+2-Wavelet Decomposition and Denoising: Built the discrete wavelet transform (DWT) algorithm using the Haar wavelet, without using any specialized libraries. I applied a denoising strategy based on statistical analysis of the detail coefficients obtained from the wavelet decomposition.
+
+3-Wavelet Reconstruction and Evaluation: Reconstructed the denoised image from the modified coefficients and evaluated its quality by comparing it to the original image.
+
+4-Benchmarking: Assessed the performance of my algorithm by benchmarking it against several commonly used denoising methods.
+
+## The full description of the algorithm can be found in this [View PDF Documentation in Docs fodler: Docs/Denoising Algorithm.pdf ]([https://raw.githubusercontent.com/<username>/<repo>/<branch>/<path-to-pdf>](https://github.com/ehsan-honarbakhsh/Denoising-Algorithm-using-Wavelet-Decomposition-and-Reconstruction/blob/main/Docs/Denoising%20Algorithm.pdf))
