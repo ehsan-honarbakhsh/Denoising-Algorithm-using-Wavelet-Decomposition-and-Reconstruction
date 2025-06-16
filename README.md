@@ -1,4 +1,4 @@
-# Image-Porcessing
+# Denoising Algorithm using Wavelet Decomposition and Reconstruction
 
 Wavelet Decomposition and Reconstruction
 
