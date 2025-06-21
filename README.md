@@ -11,4 +11,4 @@ I developed a sophisticated image denoising algorithm entirely from scratch in P
 4-Benchmarking: Assessed the performance of my algorithm by benchmarking it against several commonly used denoising methods.
 
 ## The full description of the algorithm can be found in this 
-([https://raw.githubusercontent.com/<username>/<repo>/<branch>/<path-to-pdf>](https://github.com/ehsan-honarbakhsh/Denoising-Algorithm-using-Wavelet-Decomposition-and-Reconstruction/blob/main/Docs/Denoising%20Algorithm.pdf))
+([Full Description can be found here](https://github.com/ehsan-honarbakhsh/Denoising-Algorithm-using-Wavelet-Decomposition-and-Reconstruction/blob/main/Docs/Denoising%20Algorithm.pdf))
