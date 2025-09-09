@@ -40,11 +40,8 @@ PGM files are read in both ASCII (P2) and binary (P5) formats. Ensure the datase
 ## Usage
 
 1. Place your PGM images in the `Dataset/` directory as described above.
-2. Run the script (e.g., save the provided code as `denoise_wavelet.py`):
-   ```
-   python denoise_wavelet.py
-   ```
-3. The script will:
+
+2. The script will:
    - Load and display the original and noisy images with histograms.
    - Perform wavelet decomposition and display subbands.
    - Reconstruct the original image to verify the transform (MSE should be near zero).
