@@ -113,3 +113,5 @@ Note: The thresholding logic inverts traditional approaches by preserving small 
 - **MSE**: Mean Squared Error between original/denoised images.
 - **SSIM**: Structural Similarity Index for perceptual quality.
 - Bar plots for MSE and SSIM across methods using Pandas and Matplotlib.
+
+[Full Description can be found here](https://github.com/ehsan-honarbakhsh/Denoising-Algorithm-using-Wavelet-Decomposition-and-Reconstruction/blob/main/Docs/Denoising%20Algorithm.pdf)
